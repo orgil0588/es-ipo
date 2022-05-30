@@ -1,5 +1,5 @@
 import Wrapper from "./Wrapper"
-import banner from "../assets/banner.png"
+import banner from "../assets/banner.webp"
 const Contact = () => {
   return (
     <Wrapper>
@@ -10,7 +10,7 @@ const Contact = () => {
         </h1>
         <img className="mx-auto my-4" src={banner} alt="banner" />
         <div className="">
-          <h1 className="text-2xl text-primary">Гүүдсекийн харилцагчидад</h1>
+          <h1 className="text-2xl text-primary">Гүүдсекийн харилцагчид</h1>
           <div className="my-4">
             <h1 className="my-2 text-lg">
               Сонголт 1 : Номинал данс руу мөнгө байршуулж
@@ -30,8 +30,8 @@ const Contact = () => {
           </div>
           <div className="border-t border-white ">
             <h1 className="my-2 text-lg">Сонголт 2</h1>
-            <a href="https://www.goodsec.mn/login" className="text-blue-500">
-              www.goodsec.mn/login
+            <a href="https://www.goodsec.mn/online" className="text-blue-500">
+              www.goodsec.mn/online
             </a>{" "}
             хэсэгт хандаж: <br />
             <div>
@@ -45,14 +45,14 @@ const Contact = () => {
           </div>
         </div>
         <div className="mt-4">
-          <h1 className="text-2xl text-primary">Бусад харилцагчидад</h1>
+          <h1 className="text-2xl text-primary">Бусад харилцагчид</h1>
           <div className="my-4">
             Гүүдсек ҮЦК-д үнэт цаасны данс нээлгэх ба данс нээгдсэний дараа
             дээрх{" "}
             <span className="text-primary">Гүүдсек ҮЦК-ийн харилцагчид</span>{" "}
             хувьцаа авах зааврын дагуу захиалга өгөх боломжтой.
           </div>
-          <div>Данс нээгдэх хугацаа: Ажлын 2-4 өдөр</div>
+          <div>Данс нээгдэх хугацаа: Ажлын 1-3 өдөр</div>
           <div>
             Үнэт цаасны данс Фэйсбүүк мессенжерээр нээлгэх бол{" "}
             <a
@@ -67,7 +67,7 @@ const Contact = () => {
           <div>
             Үнэт цаасны данс Веб хөтчөөр нээлгэх бол{" "}
             <a
-              href="https://www.goodsec.mn/login"
+              href="https://www.goodsec.mn/online"
               target="_blank"
               className="text-blue-500"
               rel="noreferrer"

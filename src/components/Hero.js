@@ -1,14 +1,12 @@
 import Wrapper from "./Wrapper"
 import xs from "../assets/esxs.svg"
-import earthxs from "../assets/earthxs.png"
+import earthxs from "../assets/earthxs.webp"
 import { PrimaryButton, SecondaryButton } from "./Button"
-import pdf from "../assets/Эрдэнэс_сольюшинс_ХК_гарын_авлага.pdf"
+import pdf from "../assets/erdenes_solutions.pdf"
 
 const Hero = () => {
   return (
     <Wrapper>
-      {/* <div className="my-10 w-fit cursor-pointer p-4  ">Заавар үзэх</div> */}
-
       <div className="grid md:grid-cols-2">
         <div className="mt-10 md:mt-16 lg:mt-20 xl:mt-32">
           <img
