@@ -1,0 +1,7 @@
+const Container = (props) => {
+  return (
+    <div className="bg-black w-full mx-auto text-white">{props.children}</div>
+  )
+}
+
+export default Container
