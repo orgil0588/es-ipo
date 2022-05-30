@@ -1,5 +1,5 @@
 import Wrapper from "./Wrapper"
-import binary from "../assets/binary.webp"
+import binary from "../assets/binary.png"
 import line from "../assets/line.svg"
 const About = () => {
   return (
