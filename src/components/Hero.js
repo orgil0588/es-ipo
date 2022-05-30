@@ -1,14 +1,18 @@
 import Wrapper from "./Wrapper"
 import xs from "../assets/esxs.svg"
-import earthxs from "../assets/earthxs.svg"
+import earthxs from "../assets/earthxs.png"
 import { PrimaryButton, SecondaryButton } from "./Button"
+import pdf from "../assets/Эрдэнэс_сольюшинс_ХК_гарын_авлага.pdf"
+
 const Hero = () => {
   return (
     <Wrapper>
+      {/* <div className="my-10 w-fit cursor-pointer p-4  ">Заавар үзэх</div> */}
+
       <div className="grid md:grid-cols-2">
-        <div className="lg:mt-10">
+        <div className="mt-10 md:mt-16 lg:mt-20 xl:mt-32">
           <img
-            className="lg:w-8/12"
+            className=" lg:w-8/12"
             style={{ maxWidth: 500 }}
             src={xs}
             alt="xs-logo"
@@ -21,8 +25,13 @@ const Hero = () => {
             удаа хөрөнгө татаж байна.
           </h1>
           <div className="flex items-center pb-4">
-            <PrimaryButton text="Танилцуулга" type="primary" />
-            <SecondaryButton text="Захиалга өгөх" type="secondary" />
+            <a href={pdf} download>
+              <PrimaryButton text="Танилцуулга" type="primary" />
+            </a>
+
+            <a href="#contact">
+              <SecondaryButton text="Заавар үзэх" type="secondary" />
+            </a>
           </div>
         </div>
         <img

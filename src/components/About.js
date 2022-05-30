@@ -4,7 +4,7 @@ import line from "../assets/line.svg"
 const About = () => {
   return (
     <Wrapper>
-      <div className="text-center mx-auto mt-20 ">
+      <div className="text-center mx-auto my-20 md:my-60 ">
         <h1 className="font-semibold text-md mx-auto sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl md:w-8/12">
           <span className="text-primary">Товч</span> танилцуулга
         </h1>
