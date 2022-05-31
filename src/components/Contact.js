@@ -13,7 +13,8 @@ const Contact = () => {
         <img className="mx-auto my-4" src={banner} alt="banner" />
         <div className="">
           <h1 className="text-2xl text-primary">Гүүдсекийн харилцагчид</h1>
-          <Disclosure className="">
+
+          <Disclosure defaultOpen={true} className="">
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex justify-between items-center px-4 bg-primary/25 my-4 rounded-md w-full md:w-10/12 xl:w-8/12 2xl:w-6/12">
@@ -68,7 +69,7 @@ const Contact = () => {
               </>
             )}
           </Disclosure>
-          <Disclosure className="">
+          <Disclosure defaultOpen={false} className="">
             {({ open }) => (
               <>
                 <Disclosure.Button className="flex justify-between items-center px-4 bg-primary/25 my-4 rounded-md w-full md:w-10/12 xl:w-8/12 2xl:w-6/12">
