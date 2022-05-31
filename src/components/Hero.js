@@ -4,8 +4,8 @@ import { erdenes_solutions_pdf, esxs, earth } from "./bucket"
 const Hero = () => {
   return (
     <Wrapper>
-      <div className="grid md:grid-cols-2">
-        <div className="mt-10 md:mt-16 lg:mt-20 xl:mt-32">
+      <div className="grid md:grid-cols-2 md:items-center mb-10">
+        <div className="mt-10">
           <img
             className=" lg:w-8/12"
             style={{ maxWidth: 500 }}
@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
         <img
-          className="w-full animate-[spin_60s_linear_infinite]"
+          className="w-10/12 mx-auto animate-[spin_60s_linear_infinite]"
           src={earth}
           alt="earth"
         />
