@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Child from "./components/Child"
 import Contact from "./components/Contact"
 import Container from "./components/Container"
 import Hero from "./components/Hero"
@@ -8,6 +9,7 @@ function App() {
     <Container>
       <Hero />
       <SpoInfo />
+      <Child />
       <About />
       <Contact />
     </Container>
