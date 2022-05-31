@@ -1,9 +1,6 @@
 import Wrapper from "./Wrapper"
-import xs from "../assets/esxs.svg"
-import earthxs from "../assets/earthxs.webp"
 import { PrimaryButton, SecondaryButton } from "./Button"
-import pdf from "../assets/erdenes_solutions.pdf"
-
+import { erdenes_solutions_pdf, esxs, earth } from "./bucket"
 const Hero = () => {
   return (
     <Wrapper>
@@ -12,7 +9,7 @@ const Hero = () => {
           <img
             className=" lg:w-8/12"
             style={{ maxWidth: 500 }}
-            src={xs}
+            src={esxs}
             alt="xs-logo"
           />
           <h1 className="text-sm text-left my-10 font-medium sm:text-base sm:w-10/12 md:w-full xl:w-10/12">
@@ -23,7 +20,7 @@ const Hero = () => {
             удаа хөрөнгө татаж байна.
           </h1>
           <div className="flex items-center pb-4">
-            <a href={pdf} download>
+            <a href={erdenes_solutions_pdf} download>
               <PrimaryButton text="Танилцуулга" type="primary" />
             </a>
 
@@ -34,7 +31,7 @@ const Hero = () => {
         </div>
         <img
           className="w-full animate-[spin_60s_linear_infinite]"
-          src={earthxs}
+          src={earth}
           alt="earth"
         />
       </div>

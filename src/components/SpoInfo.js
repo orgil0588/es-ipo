@@ -9,7 +9,7 @@ const SpoInfo = () => {
           <SpoInfoItems text="Санал болгох" desc="9.5" span="%" />
           <SpoInfoItems text="Татан төвлөрүүлэлт" desc="1.8" span="тэрбум" />
         </div>
-        <div className="pt-3 text-center md:pt-4 lg:pt-6">
+        {/* <div className="pt-3 text-center md:pt-4 lg:pt-6">
           <h1 className="text-md text-primary lg:text-lg ">
             Захиалгын хугацаа
           </h1>
@@ -17,7 +17,7 @@ const SpoInfo = () => {
             <span className="mr-2 text-primary">2022</span>
             06.13 - 06.17
           </p>
-        </div>
+        </div> */}
       </div>
     </Wrapper>
   )
