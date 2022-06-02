@@ -7,7 +7,7 @@ const SpoInfo = () => {
         <div className="grid grid-cols-3 gap-2 pb-3 border-b border-primary lg:pb-6">
           <SpoInfoItems text="Нэгж хувьцаа" desc="108" span="төгрөг" />
           <SpoInfoItems text="Санал болгох" desc="9.5" span="%" />
-          <SpoInfoItems text="Татан төвлөрүүлэлт" desc="1.8" span="тэрбум" />
+          <SpoInfoItems text="Татан төвлөрүүлэлт" desc="1.8" span="тэрбум ₮" />
         </div>
         {/* <div className="pt-3 text-center md:pt-4 lg:pt-6">
           <h1 className="text-md text-primary lg:text-lg ">

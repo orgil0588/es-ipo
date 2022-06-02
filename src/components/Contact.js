@@ -7,7 +7,7 @@ const Contact = () => {
     <Wrapper>
       <div id="contact" className="md:w-8/12 mx-auto mb-40 mt-10">
         <h1 className="font-semibold text-2xl xl:text-3xl ">
-          Эрдэнэс Сольюшинс ХК-ийн SPO-д
+          “Эрдэнэс сольюшинс” ХК-ийн SPO-д
           <span className="text-primary"> оролцож хувьцаа авах заавар</span>
         </h1>
         <img className="mx-auto my-4" src={banner} alt="banner" />
