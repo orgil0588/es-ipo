@@ -1,6 +1,8 @@
 import Wrapper from "./Wrapper"
 import { binary, erdenes_solutions_pdf, line } from "./bucket"
+import useAnalyticsEventTracker from "../hooks/useAnalyticsEventTracker"
 const About = () => {
+  const gaEventTracker = useAnalyticsEventTracker("about")
   return (
     <Wrapper>
       <div className="text-center mx-auto my-20 md:my-40  ">
@@ -32,6 +34,9 @@ const About = () => {
             target="_blank"
             rel="noreferrer"
             className="text-blue-400 font-semibold hover:underline"
+            onClick={() => {
+              gaEventTracker("download pdf")
+            }}
           >
             {" "}
             ЭНД ДАРЖ{" "}

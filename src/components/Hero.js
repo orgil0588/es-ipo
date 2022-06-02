@@ -1,7 +1,9 @@
 import Wrapper from "./Wrapper"
 import { PrimaryButton, SecondaryButton } from "./Button"
 import { erdenes_solutions_pdf, esxs, earth } from "./bucket"
+import useAnalyticsEventTracker from "../hooks/useAnalyticsEventTracker"
 const Hero = () => {
+  const gaEventTracker = useAnalyticsEventTracker("Hero")
   return (
     <Wrapper>
       <div className="grid md:grid-cols-2 md:items-center mb-10">
@@ -28,6 +30,9 @@ const Hero = () => {
               download
               target="_blank"
               rel="noreferrer"
+              onClick={() => {
+                gaEventTracker("download pdf")
+              }}
             >
               <SecondaryButton text="Танилцуулга татаж авах" type="primary" />
             </a>

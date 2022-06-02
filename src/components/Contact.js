@@ -1,8 +1,10 @@
 import Wrapper from "./Wrapper"
 import { Disclosure, Transition } from "@headlessui/react"
 import { banner, help } from "./bucket"
+import useAnalyticsEventTracker from "../hooks/useAnalyticsEventTracker"
 
 const Contact = () => {
+  const gaEventTracker = useAnalyticsEventTracker("Announcement")
   return (
     <Wrapper>
       <div id="contact" className="md:w-8/12 mx-auto mb-40 mt-10">
@@ -141,6 +143,9 @@ const Contact = () => {
               target="_blank"
               className="text-blue-400 font-semibold hover:underline"
               rel="noreferrer"
+              onClick={() => {
+                gaEventTracker("chatbot")
+              }}
             >
               энд дарна уу.
             </a>
@@ -152,6 +157,9 @@ const Contact = () => {
               target="_blank"
               className="text-blue-400 font-semibold hover:underline"
               rel="noreferrer"
+              onClick={() => {
+                gaEventTracker("web browser")
+              }}
             >
               энд дарна уу.
             </a>
@@ -173,6 +181,9 @@ const Contact = () => {
                 target="_blank"
                 href="https://goodsec.mn/contact"
                 rel="noreferrer"
+                onClick={() => {
+                  gaEventTracker("salbar")
+                }}
               >
                 энд дарна уу
               </a>
