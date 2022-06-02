@@ -20,17 +20,16 @@ const Hero = () => {
             удаа хөрөнгө татаж байна.
           </h1>
           <div className="flex items-center pb-4">
+            <a href="#contact">
+              <PrimaryButton text="Заавар үзэх" type="secondary" />
+            </a>
             <a
               href={erdenes_solutions_pdf}
               download
               target="_blank"
               rel="noreferrer"
             >
-              <PrimaryButton text="Танилцуулга үзэх" type="primary" />
-            </a>
-
-            <a href="#contact">
-              <SecondaryButton text="Заавар үзэх" type="secondary" />
+              <SecondaryButton text="Танилцуулга татаж авах" type="primary" />
             </a>
           </div>
         </div>

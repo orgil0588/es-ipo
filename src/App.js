@@ -7,11 +7,11 @@ import SpoInfo from "./components/SpoInfo"
 function App() {
   return (
     <Container>
+      <Contact />
       <Hero />
       <SpoInfo />
       <Child />
       <About />
-      <Contact />
     </Container>
   )
 }

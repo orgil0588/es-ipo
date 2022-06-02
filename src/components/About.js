@@ -31,7 +31,7 @@ const About = () => {
             download
             target="_blank"
             rel="noreferrer"
-            className="text-blue-500"
+            className="text-blue-400 font-semibold hover:underline"
           >
             {" "}
             ЭНД ДАРЖ{" "}
@@ -42,7 +42,7 @@ const About = () => {
 
       <div className=" mt-10 grid grid-cols-1 md:grid-cols-2 md:gap-4 md:mt-32">
         <img src={binary} alt="binary" />
-        <div className="absolute backdrop-blur-sm p-6 md:p-0 md:backdrop-blur-none md:relative">
+        <div className="absolute w-full backdrop-blur-sm p-6 md:p-0 md:backdrop-blur-none md:relative">
           <h1 className="font-semibold text-md sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl md:w-8/12">
             Төслүүд <span className="text-primary"></span>
           </h1>

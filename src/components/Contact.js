@@ -5,7 +5,7 @@ import { banner, help } from "./bucket"
 const Contact = () => {
   return (
     <Wrapper>
-      <div id="contact" className="md:w-8/12 mx-auto mb-40">
+      <div id="contact" className="md:w-8/12 mx-auto mb-40 mt-10">
         <h1 className="font-semibold text-2xl xl:text-3xl ">
           Эрдэнэс Сольюшинс ХК-ийн SPO-д
           <span className="text-primary"> оролцож хувьцаа авах заавар</span>
@@ -139,7 +139,7 @@ const Contact = () => {
             <a
               href="https://www.m.me/goodsecmongolia"
               target="_blank"
-              className="text-blue-400"
+              className="text-blue-400 font-semibold hover:underline"
               rel="noreferrer"
             >
               энд дарна уу.
@@ -150,7 +150,7 @@ const Contact = () => {
             <a
               href="https://www.goodsec.mn/online"
               target="_blank"
-              className="text-blue-400"
+              className="text-blue-400 font-semibold hover:underline"
               rel="noreferrer"
             >
               энд дарна уу.
@@ -165,6 +165,19 @@ const Contact = () => {
           </div>
           <div className="my-4 text-xl md:text-2xl">
             SPO-д оролцож хувьцаа авах талаар мэдээлэл авах утас: 11-331878
+          </div>
+          <div>
+            Салбаруудын хаяг байршлын мэдээлэл, утасны дугаар харах бол{" "}
+            <span className="text-blue-400 font-semibold hover:underline">
+              <a
+                target="_blank"
+                href="https://goodsec.mn/contact"
+                rel="noreferrer"
+              >
+                энд дарна уу
+              </a>
+            </span>
+            .
           </div>
         </div>
       </div>
