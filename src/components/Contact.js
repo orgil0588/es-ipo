@@ -190,6 +190,22 @@ const Contact = () => {
             </span>
             .
           </div>
+          <div>
+           Эрдэнэс Сольюшинс-ийн дэлгэрэнгүй мэдээлэл авах бол{" "}
+            <span className="text-blue-400 font-semibold hover:underline">
+              <a
+                target="_blank"
+                href="https://erdenes.solutions/ords/r/es/web/html-content?p3001_id=646"
+                rel="noreferrer"
+                onClick={() => {
+                  gaEventTracker("es")
+                }}
+              >
+                энд дарна уу
+              </a>
+            </span>
+            .
+          </div>
         </div>
       </div>
     </Wrapper>
